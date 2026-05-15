@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "MeerkeuzevragenBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MeerkeuzevragenBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeerkeuzevragenBL.dll": {}
+        }
+      },
+      "MeerkeuzevragenDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MeerkeuzevragenBL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MeerkeuzevragenDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeerkeuzevragenDL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeerkeuzevragenBL/1.0.0": {
+      "type": "project",
+      "path": "../MeerkeuzevragenBL/MeerkeuzevragenBL.csproj",
+      "msbuildProject": "../MeerkeuzevragenBL/MeerkeuzevragenBL.csproj"
+    },
+    "MeerkeuzevragenDL/1.0.0": {
+      "type": "project",
+      "path": "../MeerkeuzevragenDL/MeerkeuzevragenDL.csproj",
+      "msbuildProject": "../MeerkeuzevragenDL/MeerkeuzevragenDL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "MeerkeuzevragenBL >= 1.0.0",
+      "MeerkeuzevragenDL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arnem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenWPF\\MeerkeuzevragenWPF.csproj",
+      "projectName": "MeerkeuzevragenWPF",
+      "projectPath": "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenWPF\\MeerkeuzevragenWPF.csproj",
+      "packagesPath": "C:\\Users\\arnem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenWPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\arnem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenBL\\MeerkeuzevragenBL.csproj": {
+              "projectPath": "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenBL\\MeerkeuzevragenBL.csproj"
+            },
+            "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenDL\\MeerkeuzevragenDL.csproj": {
+              "projectPath": "C:\\Users\\arnem\\OneDrive\\Bureaublad\\Programmeren\\Gevorderd I\\Meerkeuzevragen\\Meerkeuzevragen\\MeerkeuzevragenDL\\MeerkeuzevragenDL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
